@@ -1,5 +1,6 @@
 #==========================================================================
 # Description: Build Armbian using releases files
+# Fork-local workflow registration for the verified Beelink IPC-R build.
 # Copyright (C) 2021 https://github.com/ophub/amlogic-s9xxx-armbian
 #==========================================================================
 
