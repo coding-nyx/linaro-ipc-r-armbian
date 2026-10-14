@@ -1,3 +1,29 @@
+# linaro-ipc-r-armbian
+
+**A personal fork of [ophub/amlogic-s9xxx-armbian](https://github.com/ophub/amlogic-s9xxx-armbian).** The upstream project provides Armbian image rebuilding and kernel tooling for supported Amlogic, Allwinner and Rockchip devices.
+
+[This fork](https://github.com/coding-nyx/linaro-ipc-r-armbian) · [Upstream](https://github.com/ophub/amlogic-s9xxx-armbian) · [Device documentation](documents/README.md) · [License](LICENSE)
+
+| Start here | Purpose |
+| --- | --- |
+| `documents/` | Installation, board compatibility and recovery guidance |
+| `build-armbian/` | Image build/rebuild inputs |
+| `compile-kernel/` | Kernel tooling |
+| `.github/workflows/` | Repository automation |
+
+## Using this fork
+
+```sh
+git clone https://github.com/coding-nyx/linaro-ipc-r-armbian.git
+cd linaro-ipc-r-armbian
+```
+
+Check the exact device model and current branch before selecting an image or writing boot media. Upstream releases, build badges and support links below belong to their named upstream projects; they do not certify a fork-specific release or support promise. No claim of additional device support or synchronization freshness is made here.
+
+The upstream README, translations and acknowledgements are preserved below. Read the upstream procedure and board-specific recovery notes before using any flashing or eMMC installer command.
+
+---
+
 <div align="center">
     <img alt="Armbian" src="https://github.com/user-attachments/assets/74e55052-031b-48f8-9aca-e5f1dd9e256a" />
 </div>
